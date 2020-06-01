@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.cantinhocinema" name="CantinhoCinema Repository" version="0.1" provider-name="CantinhoCinema">
+<addon id="repository.cantinhocinema" name="[COLORblue]Cantinho[/COLOR][COLORwhite]Cinema[/COLOR][COLORblack] Repository[/COLOR]" version="0.1" provider-name="CantinhoCinema">
 	<extension point="xbmc.addon.repository" name="CantinhoCinema Repository">
 		<info compressed="false">http://raw.github.com/CantinhoCinema/repository.cantinhocinema/master/addons.xml</info>
 		<checksum>http://raw.github.com/CantinhoCinema/repository.cantinhocinema/master/addons.xml.md5</checksum>
