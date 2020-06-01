@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.cantinhocinema" name="CantinhoCinema Repository" version="0.1" provider-name="CantinhoCinema">
+	<extension point="xbmc.addon.repository" name="CantinhoCinema Repository">
+		<info compressed="false">http://raw.github.com/CantinhoCinema/cantinhocinema.github.io/master/addons.xml</info>
+		<checksum>http://raw.github.com/CantinhoCinema/Mcantinhocinema.github.io/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/CantinhoCinema/cantinhocinema.github.io/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Fonte para um mundo de coisas boas!</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
