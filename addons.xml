@@ -87,6 +87,59 @@
  </extension>
 </addon>
 
+<addon id="plugin.video.watched" name="[COLOR red]Watched[/COLOR]" version="3.0" provider-name="mr-evil1">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.requests" version="2.11.1"/>
+        <import addon="script.extendedinfo" version="5.6.0"/>
+        <import addon="script.module.pil"/>
+        <import addon="script.common.plugin.cache"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+
+
+        <import addon="plugin.video.videodevil"/>
+
+        <import addon="plugin.video.nick_de" version="1.1.5"/>
+
+        <import addon="plugin.video.kika_de" version="1.0.9"/>
+
+        <import addon="plugin.video.sesamstrasse_de" version="1.0.6"/>
+
+
+
+        <import addon="plugin.video.ardmediathek_de" version="5.0.0"/>
+        <import addon="plugin.video.atv_at" version="2.7.0"/>
+
+
+
+        <import addon="plugin.video.mediathek" version=""/>
+
+        <import addon="plugin.video.servustv_com" version="1.0.16"/>
+
+
+
+
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="lib/video1.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.script" library="lib/script.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py">
+        <provides>service</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>de</language>
+        <summary lang="de">Watched Movie "mr-evil1"</summary>
+        <description lang="de">Watched Movie "mr-evil1"</description>
+        <website></website>
+    </extension>
+</addon>
+
 <addon id="repository.cantinhocinema" name="[COLORblue]Cantinho[/COLOR][COLORwhite]Cinema[/COLOR][COLORblack] Repository[/COLOR]" version="0.1" provider-name="CantinhoCinema">
 	<extension point="xbmc.addon.repository" name="CantinhoCinema Repository">
 		<info compressed="false">http://raw.github.com/CantinhoCinema/repository.cantinhocinema/master/addons.xml</info>
