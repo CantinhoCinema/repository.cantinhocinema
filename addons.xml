@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.cantinhocs" name="cantinhocs Wizard" version="1.1" provider-name="cantinhocs">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">cantinhocs Wizard</summary>
+    <description lang="en">cantinhocs Wizard allows you to get access to the latest Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.darkarrowvip"
        name="darkarrowvip"
        version="3.3"
@@ -16,7 +31,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" /> 
+    <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
 
